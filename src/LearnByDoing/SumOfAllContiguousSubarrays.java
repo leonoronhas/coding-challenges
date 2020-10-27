@@ -3,7 +3,8 @@ package LearnByDoing;
 import java.util.Arrays;
 
 /***********************************************************************************
- *   Given an array, find the sum of all contiguous subarrays of size ‘K’ in it
+ *   Given an array of positive numbers and a positive number ‘k’, find the maximum
+ *   sum of any contiguous subarray of size ‘k’.
  *   Efficiency:
  *   Brute force solution -> O(n^2)
  *   Optimal solution -> O(n)
