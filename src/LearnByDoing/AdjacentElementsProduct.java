@@ -13,13 +13,11 @@ public class AdjacentElementsProduct {
         return max;
     }
 
-
     public static void main(String[] args) {
         int[] arr = {3, 6, -2, -5, 7, 3};
 
         // Optimal solution
         int optimalResult = findSum(arr);
         System.out.println("Array: "+ Arrays.toString(arr) + "\nSum of pair of adjacent elements that has the largest product : " + optimalResult);
-
     }
 }
